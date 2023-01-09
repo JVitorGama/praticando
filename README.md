@@ -1,2 +1,3 @@
 # praticando
- meus exercicios de pratica
+
+meu repositorio de pratica em html e css
