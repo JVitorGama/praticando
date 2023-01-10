@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    text-align: center;
+    color: white;
+}
+
+main section.sect_inicio > h1{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 30px;
+    font-size: 2.5em;
+}
+
+main section.sect_inicio p{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    font-size: 1.1em;
+}
+
+main section.sect_inicio p.rb{
+    padding-bottom: 10px;
+}
+
+main nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+nav a{
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+}nav a:hover{
+    transition: .5s;
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+main section.sect_inicio{
+    min-height: 100vh;
+    background-image: url(../imagens/background-de-\ machado-de-assis.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main section.conteudo{
+    padding: 20px;
+    text-align: start;
+    color: black;
+    line-height: 28px;
+}
+
+main section.conteudo h2{
+    padding: 20px 20px 10px 20px;
+    font-size: 2em;
+}
+
+main section.conteudo p.inf{
+    padding: 15px 20px 15px 20px;
+    font-size: 1.1em;
+    text-indent: 25px;
+}
+
+main section.curiosidades{
+    background-image: url(../imagens/teste.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    text-align: start;
+}
+
+main section.curiosidades h1{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 10px 40px 10px 40px;
+    margin: 80px 0px 10px 20px;
+    font-size: 1.5em;
+    display: inline-block;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+main section.curiosidades h2{
+    background-color: rgba(255, 254, 254, 0.5);
+    color: black;
+    font-size: 1.7em;
+    padding: 20px 50px 10px 50px;
+    margin: 15px 10vw 0px 10vw; 
+    border-radius: 20px 20px 0px 0px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);  
+    
+    /* display: inline-block; */
+}
+
+main section.curiosidades p{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 10px 50px 25px 50px;
+    margin: 0px 10vw 85px 10vw;
+    text-indent: 25px;
+    display: inline-block;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+main section.curiosidades strong{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+
+
