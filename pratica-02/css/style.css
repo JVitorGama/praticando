@@ -11,15 +11,17 @@ main{
 }
 
 main section.sect_inicio > h1{
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     padding-top: 30px;
     font-size: 2.5em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
 }
 
 main section.sect_inicio p{
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     padding-top: 10px;
     font-size: 1.1em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
 }
 
 main section.sect_inicio p.rb{
@@ -27,10 +29,11 @@ main section.sect_inicio p.rb{
 }
 
 main nav{
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     text-align: center;
     padding-top: 20px;
     padding-bottom: 5px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
 }
 
 nav a{
@@ -43,6 +46,11 @@ nav a{
     color: black;
     text-decoration: underline;
     border-radius: 10px;
+}
+
+main section.conteudo img{
+    width: 70%;
+    padding-left: 20px;
 }
 
 main section.sect_inicio{
@@ -60,6 +68,11 @@ main section.conteudo{
     line-height: 28px;
 }
 
+main section.conteudo h1{
+    font-size: 2.5em;
+    padding: 15px 0px 25px 0px;
+}
+
 main section.conteudo h2{
     padding: 20px 20px 10px 20px;
     font-size: 2em;
@@ -71,40 +84,58 @@ main section.conteudo p.inf{
     text-indent: 25px;
 }
 
-main section.curiosidades{
-    background-image: url(../imagens/teste.jfif);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center top;
-    text-align: start;
+main section.conteudo p.citação{
+    padding: 0px 20px 15px 50px;
 }
 
-main section.curiosidades h1{
-    background-color: rgba(255, 255, 255, 0.5);
-    color: black;
+/* Curiosidades 01 */
+
+main section#curiosidades01{
+    background-image: url(../imagens/imagem\ 01.jfif);
+    background-position: center top;
+}
+
+main section#curiosidades02{
+    background-image: url(../imagens/imagem-4.jpg);
+    background-position: center bottom;
+}
+
+main section#curiosidades03{
+    background-image: url(../imagens/imagen-5.jpg);
+    background-position: center top;
+}
+
+main section.curio{
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: start; 
+    box-shadow: inset 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+main section.curio h1{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
     padding: 10px 40px 10px 40px;
     margin: 80px 0px 10px 20px;
     font-size: 1.5em;
     display: inline-block;
     border-radius: 10px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0);
 }
 
-main section.curiosidades h2{
-    background-color: rgba(255, 254, 254, 0.5);
-    color: black;
+main section.curio h2{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
     font-size: 1.7em;
     padding: 20px 50px 10px 50px;
     margin: 15px 10vw 0px 10vw; 
     border-radius: 20px 20px 0px 0px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);  
-    
-    /* display: inline-block; */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0);
 }
 
-main section.curiosidades p{
-    background-color: rgba(255, 255, 255, 0.5);
-    color: black;
+main section.curio p{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
     padding: 10px 50px 25px 50px;
     margin: 0px 10vw 85px 10vw;
     text-indent: 25px;
@@ -112,13 +143,20 @@ main section.curiosidades p{
     border-radius: 0px 0px 20px 20px;
     font-weight: bold;
     font-size: 1.1em;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
-main section.curiosidades strong{
+main section.curio strong{
     font-weight: bolder;
     text-decoration: underline;
 }
+
+main section.curio article.corpo{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
 
 
 
