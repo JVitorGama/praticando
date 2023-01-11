@@ -63,11 +63,20 @@ main section.conteudo{
     line-height: 28px;
 }
 
-main section.img img, source{
-    width: 70%;
-    text-align: center;
-    padding-left: 10px;
+main section.conteudo div.conteudo_img img, picture{
+    padding: 10px; 
+}
 
+main section.conteudo div.conteudo_img #img01, #img1{
+    width: 50%;
+}
+
+main section.conteudo div.conteudo_img #img02, #img2{
+    width: 55%;
+}
+
+main section.conteudo div.conteudo_img #img03, #img3{
+    width: 55%;
 }
 
 main section.conteudo h1{
@@ -106,6 +115,15 @@ main section#curiosidades03{
     background-image: url(../imagens/imagen-5.jpg);
     background-position: center top;
 }
+
+main section#curiosidades06{
+    background-image: url(../imagens/imagen-08.jpg);
+    background-position: right center;
+}
+
+/* main section#curiosidades04{
+
+} */
 
 main section.curio{
     background-size: cover;
