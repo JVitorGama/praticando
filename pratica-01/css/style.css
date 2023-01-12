@@ -121,6 +121,10 @@ main section#curiosidades06{
     background-position: right center;
 }
 
+main section.conteudo aside{
+    font-size: 0.9em;
+}
+
 /* main section#curiosidades04{
 
 } */
