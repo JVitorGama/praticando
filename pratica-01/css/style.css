@@ -99,6 +99,11 @@ main section.conteudo p.citação{
     padding: 0px 20px 15px 50px;
 }
 
+main section.conteudo aside{
+    font-size: 0.9em;
+    padding-left: 20px;
+}
+
 /* Curiosidades 01 */
 
 main section#curiosidades01{
@@ -116,14 +121,22 @@ main section#curiosidades03{
     background-position: center top;
 }
 
+main section#curiosidades04{
+    background-image: url(../imagens/imagen-8.jpg);
+    background-position: center center;
+}
+
+main section#curiosidades05{
+    background-image: url(../imagens/imagen-9.webp);
+    background-position: center center;
+}
+
 main section#curiosidades06{
-    background-image: url(../imagens/imagen-08.jpg);
+    background-image: url(../imagens/imagen-10.jpg);
     background-position: right center;
 }
 
-main section.conteudo aside{
-    font-size: 0.9em;
-}
+
 
 /* main section#curiosidades04{
 
@@ -177,6 +190,47 @@ main section.curio strong{
 
 main section.curio article.corpo{
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+}
+
+footer aside{
+    text-align: center;
+}
+
+footer p{
+    padding: 5px 25px;
+    font-size: 1.1em;
+    display: inline-block;
+}
+
+footer aside.sobre h3{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+footer aside.creditos h3{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+footer aside.gratidao h3{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+footer .creditos a, a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}footer .creditos a:hover, a:hover{
+    color: cyan;
+    text-decoration: underline;
+    transition: .5s;
 }
 
 
